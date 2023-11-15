@@ -26,6 +26,7 @@
 ---
 
 ## Exercise 1{#exercise-1}
+The goal of this exercise is to perform Principal Component Analysis (PCA) in order to find out how many principal components we have. In order to do that, we are asked to perform two kinds of PCA: linear and kernel PCA
 
 ---
 
