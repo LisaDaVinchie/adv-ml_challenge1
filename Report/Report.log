@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  15 NOV 2023 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  16 NOV 2023 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,145 +429,193 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
-<pca_linear_2comps.png, id=30, 462.528pt x 346.896pt>
-File: pca_linear_2comps.png Graphic file (type png)
-<use pca_linear_2comps.png>
-Package pdftex.def Info: pca_linear_2comps.png  used on input line 59.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
-
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 59--61
-[][]
- []
-
-<pca_linear_3comps.png, id=32, 462.528pt x 346.896pt>
-File: pca_linear_3comps.png Graphic file (type png)
-<use pca_linear_3comps.png>
-Package pdftex.def Info: pca_linear_3comps.png  used on input line 63.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
-
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 63--65
-[][]
- []
-
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 58--66
-[][] [] 
- []
 
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<pca_rbf_2comps.png, id=53, 462.528pt x 346.896pt>
+<pca_linear_2comps.png, id=65, 433.62pt x 433.62pt>
+File: pca_linear_2comps.png Graphic file (type png)
+<use pca_linear_2comps.png>
+Package pdftex.def Info: pca_linear_2comps.png  used on input line 59.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
+
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 59--60
+[][] 
+ []
+
+<pca_linear_3comps.png, id=67, 433.62pt x 433.62pt>
+File: pca_linear_3comps.png Graphic file (type png)
+<use pca_linear_3comps.png>
+Package pdftex.def Info: pca_linear_3comps.png  used on input line 64.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
+
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 64--65
+[][] 
+ []
+
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 58--68
+[][] [] 
+ []
+
+<pca_rbf_2comps.png, id=69, 433.62pt x 433.62pt>
 File: pca_rbf_2comps.png Graphic file (type png)
 <use pca_rbf_2comps.png>
-Package pdftex.def Info: pca_rbf_2comps.png  used on input line 75.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
+Package pdftex.def Info: pca_rbf_2comps.png  used on input line 77.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
 
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 75--77
-[][]
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 77--78
+[][] 
  []
 
-<pca_rbf_3comps.png, id=54, 462.528pt x 346.896pt>
+<pca_rbf_3comps.png, id=70, 433.62pt x 433.62pt>
 File: pca_rbf_3comps.png Graphic file (type png)
 <use pca_rbf_3comps.png>
-Package pdftex.def Info: pca_rbf_3comps.png  used on input line 79.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
+Package pdftex.def Info: pca_rbf_3comps.png  used on input line 82.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
 
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 79--81
-[][]
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 82--83
+[][] 
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 74--82
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 76--86
 [][] [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pca_poly_2comps.png, id=55, 462.528pt x 346.896pt>
+<pca_poly_2comps.png, id=72, 433.62pt x 433.62pt>
 File: pca_poly_2comps.png Graphic file (type png)
 <use pca_poly_2comps.png>
-Package pdftex.def Info: pca_poly_2comps.png  used on input line 89.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
+Package pdftex.def Info: pca_poly_2comps.png  used on input line 93.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
 
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 89--90
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 93--94
 [][] 
  []
 
-<pca_poly_3comps.png, id=56, 462.528pt x 346.896pt>
+<pca_poly_3comps.png, id=73, 433.62pt x 433.62pt>
 File: pca_poly_3comps.png Graphic file (type png)
 <use pca_poly_3comps.png>
-Package pdftex.def Info: pca_poly_3comps.png  used on input line 94.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
+Package pdftex.def Info: pca_poly_3comps.png  used on input line 98.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
 
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 94--95
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 98--99
 [][] 
  []
 
-<pca_sigmoid_2comps.png, id=57, 462.528pt x 346.896pt>
+<pca_sigmoid_2comps.png, id=74, 433.62pt x 433.62pt>
 File: pca_sigmoid_2comps.png Graphic file (type png)
 <use pca_sigmoid_2comps.png>
-Package pdftex.def Info: pca_sigmoid_2comps.png  used on input line 99.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
+Package pdftex.def Info: pca_sigmoid_2comps.png  used on input line 103.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
 
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 99--100
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 103--104
 [][] 
  []
 
-<pca_sigmoid_3comps.png, id=58, 462.528pt x 346.896pt>
+<pca_sigmoid_3comps.png, id=75, 433.62pt x 433.62pt>
 File: pca_sigmoid_3comps.png Graphic file (type png)
 <use pca_sigmoid_3comps.png>
-Package pdftex.def Info: pca_sigmoid_3comps.png  used on input line 104.
-(pdftex.def)             Requested size: 260.16803pt x 195.1338pt.
+Package pdftex.def Info: pca_sigmoid_3comps.png  used on input line 108.
+(pdftex.def)             Requested size: 260.16803pt x 260.18062pt.
 
-Overfull \hbox (25.29053pt too wide) in paragraph at lines 104--105
+Overfull \hbox (25.29053pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 88--108
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 92--112
 [][] []
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 88--108
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 92--112
 [] [] 
  []
+
+[2 <./pca_linear_2comps.png> <./pca_linear_3comps.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<unsupervised_clustering.png, id=99, 722.7pt x 722.7pt>
+File: unsupervised_clustering.png Graphic file (type png)
+<use unsupervised_clustering.png>
+Package pdftex.def Info: unsupervised_clustering.png  used on input line 121.
+(pdftex.def)             Requested size: 469.75502pt x 469.76045pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+} <./pca_rbf_2comps.png> <./pca_rbf_3comps.png>]
+<eigenvalues_sigmoid.png, id=111, 462.528pt x 346.896pt>
+File: eigenvalues_sigmoid.png Graphic file (type png)
+<use eigenvalues_sigmoid.png>
+Package pdftex.def Info: eigenvalues_sigmoid.png  used on input line 136.
+(pdftex.def)             Requested size: 328.82707pt x 246.63135pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<unsupervised_clustering.png, id=67, 722.7pt x 722.7pt>
-File: unsupervised_clustering.png Graphic file (type png)
-<use unsupervised_clustering.png>
-Package pdftex.def Info: unsupervised_clustering.png  used on input line 117.
-(pdftex.def)             Requested size: 469.75502pt x 469.76045pt.
-[2 <./pca_linear_2comps.png> <./pca_linear_3comps.png>] [3 <./pca_rbf_2comps.pn
-g> <./pca_rbf_3comps.png>] [4 <./pca_poly_2comps.png> <./pca_poly_3comps.png> <
-./pca_sigmoid_2comps.png> <./pca_sigmoid_3comps.png>] [5 <./unsupervised_cluste
-ring.png>] (./Report.aux)
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: DA82876404740D1F3C2ECF847930F555;466.
+<ex3_FCNN1l_accuracy-epochs.png, id=114, 462.528pt x 346.896pt>
+File: ex3_FCNN1l_accuracy-epochs.png Graphic file (type png)
+<use ex3_FCNN1l_accuracy-epochs.png>
+Package pdftex.def Info: ex3_FCNN1l_accuracy-epochs.png  used on input line 168
+.
+(pdftex.def)             Requested size: 253.66855pt x 190.25348pt.
+<ex3_FCNN2l_accuracy-epochs.png, id=115, 462.528pt x 346.896pt>
+File: ex3_FCNN2l_accuracy-epochs.png Graphic file (type png)
+<use ex3_FCNN2l_accuracy-epochs.png>
+Package pdftex.def Info: ex3_FCNN2l_accuracy-epochs.png  used on input line 173
+.
+(pdftex.def)             Requested size: 253.66855pt x 190.25348pt.
+
+Overfull \hbox (96.5678pt too wide) in paragraph at lines 167--177
+[][] [] 
+ []
+
+[4]
+<ex3_FCNN2l_accuracy-neurons.png, id=123, 462.528pt x 346.896pt>
+File: ex3_FCNN2l_accuracy-neurons.png Graphic file (type png)
+<use ex3_FCNN2l_accuracy-neurons.png>
+Package pdftex.def Info: ex3_FCNN2l_accuracy-neurons.png  used on input line 18
+4.
+(pdftex.def)             Requested size: 422.77664pt x 317.09972pt.
+ [5] [6 <./pca_poly_2comps.png> <./pca_poly_3comps.png> <./pca_sigmoid_2comps.p
+ng> <./pca_sigmoid_3comps.png>] [7 <./unsupervised_clustering.png>] [8 <./eigen
+values_sigmoid.png> <./ex3_FCNN1l_accuracy-epochs.png> <./ex3_FCNN2l_accuracy-e
+pochs.png>] [9 <./ex3_FCNN2l_accuracy-neurons.png>] (./Report.aux)
+
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: 952BC4289AE05EFD00690716F54BE6C7;1207
+(rerunfilecheck)             After:  68041CAF1792123ECC758B9A8763B19C;1154.
  ) 
 Here is how much of TeX's memory you used:
- 11677 strings out of 476025
- 187144 string characters out of 5790018
- 1861388 words of memory out of 5000000
- 31970 multiletter control sequences out of 15000+600000
- 521043 words of font info for 66 fonts, out of 8000000 for 9000
+ 11737 strings out of 476025
+ 188639 string characters out of 5790018
+ 1862388 words of memory out of 5000000
+ 32012 multiletter control sequences out of 15000+600000
+ 522034 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,77p,427b,499s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,77p,608b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Report.pdf (5 pages, 1457382 bytes).
+local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Report.pdf (9 pages, 1759156 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
