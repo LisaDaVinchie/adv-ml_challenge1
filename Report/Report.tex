@@ -163,7 +163,7 @@ We performed this kind of supervised classification using the four kernels that 
 We started by considering a simple neural network, with just 1 fully connected layer and a Softmax activation function; we trained it for different numbers of epochs between 0 and 20, using stochastic gradiend descent with learning rate 0.01 as the optimizer, anc aclculated the test accuracy using the cross entropy loss. As expected, the test accuracy increases with the number of epochs, as illustrated in Figure \ref{subfig:FCNN1l_accuracy-epochs}.\newline
 We, then, tried a sligtly more complex neural network, with two fully connected layers and, again, the softmax activation function; in this case, we also need to choose the number of neurons of the first %penso sia il primo
 layer, along with the number of neurons. We started by choosing a number of neurons of 850 and study how the accuracy grows with the number of epochs; as in Figure \ref{subfig:FCNN2l_accuracy-epochs}, we can see how we obtain better results than in the previous model.\newline
-\begin{figure}
+\begin{figure}[h]
 	\begin{subfigure}{0.6\textwidth}
 		\includegraphics[width = 0.9\textwidth]{ex3_FCNN1l_accuracy-epochs.png}
 		\caption{}
@@ -174,20 +174,45 @@ layer, along with the number of neurons. We started by choosing a number of neur
 		\caption{}
 		\label{subfig:FCNN2l_accuracy-epochs}
 	\end{subfigure}
-	\caption{}
+	\caption{Test accuracy obtained by using a 1-layer (Figure \subref{subfig:FCNN1l_accuracy-epochs}) and 2-layer (Figure \subref{subfig:FCNN2l_accuracy-epochs}) fully connected neural network trained for different numbers of epochs}
 	\label{fig:ex3_FCNN_epochs}
 \end{figure}
 
-Fixing the number of epochs to 8 and changing the number of neurons between 50 and 6850, instead we obtaon the plot in Figure \ref{fig:ex3_FCNN_neurons}; here, the accuracy increases very slowly with the number of neurons.
-\begin{figure}
+Fixing the number of epochs to 8 and changing the number of neurons between 50 and 1050, instead we obtaon the plot in Figure \ref{fig:ex3_FCNN_neurons}; here, the accuracy increases very slowly with the number of neurons.
+\begin{figure}[h]
 	\centering
 	\includegraphics[width = 0.9\textwidth]{ex3_FCNN2l_accuracy-neurons.png}
-	\caption{}
+	\caption{Test accuracy obtained by using a 2-layer fully connected neural network with different numbers of neurons per hidden layer, trained for 8 epochs}
 	\label{fig:ex3_FCNN_neurons}
 \end{figure}
 In conclusion, we can say that using two fully connected layers seems better than using just one; concerning the number of epochs and neurons, it seems better to prioritize the first one.
 
 \subsection{Convolutional Neural Network}
+To test the performance of convolutional neural networks, we followed a similar approach: we started by considering a simple CNN composed by one two-dimensional convolutional layer, with 2 $\times$ 2 max pooling, and one fully connected layer; the obtained test accuracy, varying for the number of epochs for which the model was trained, is reported in Figure \ref{subfig:CNN1l_accuracy-epochs}.\newline
+Then, we tried a more complex CNN, with two convolutional layers, with 2 $\times$ 2 max pooling, and one fully connected layer; the accuracies obtained by varying the number of epochs and neurons are reported, respectively in Figures \ref{subfig:CNN2l_accuracy-epochs} and \ref{fig:ex3_CNN_neurons}
+\begin{figure}[h]
+		\begin{subfigure}{0.6\textwidth}
+		\includegraphics[width = 0.9\textwidth]{ex3_CNN1l_accuracy-epochs.png}
+		\caption{}
+		\label{subfig:CNN1l_accuracy-epochs}
+	\end{subfigure}
+	\begin{subfigure}{0.6\textwidth}
+		\includegraphics[width = 0.9\textwidth]{ex3_CNN2l_accuracy-epochs.png}
+		\caption{}
+		\label{subfig:CNN2l_accuracy-epochs}
+	\end{subfigure}
+	\caption{Test accuracy obtained by using a 1-layer (Figure \subref{subfig:FCNN1l_accuracy-epochs}) and 2-layer with 100 neurons per hidden layer (Figure \subref{subfig:FCNN2l_accuracy-epochs}) convolutional neural network trained for different numbers of epochs}
+	\label{fig:ex3_CNN_epochs}
+\end{figure}
+
+As we can see, the model with 2 convolutional layers returns better results with less training epochs.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{ex3_CNN2l_accuracy-neurons.png}
+	\caption{Test accuracy obtained by using a 2-layer fully connected neural network with different numbers of neurons per hidden layer, trained for 2 epochs.}
+	\label{fig:ex3_CNN_neurons}
+\end{figure}
 
 
 \section{Results}
