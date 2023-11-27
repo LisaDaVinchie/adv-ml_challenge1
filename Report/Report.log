@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  21 NOV 2023 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  27 NOV 2023 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -592,45 +592,50 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <ex3_CNN1l_accuracy-epochs.png, id=131, 462.528pt x 346.896pt>
 File: ex3_CNN1l_accuracy-epochs.png Graphic file (type png)
 <use ex3_CNN1l_accuracy-epochs.png>
-Package pdftex.def Info: ex3_CNN1l_accuracy-epochs.png  used on input line 195.
+Package pdftex.def Info: ex3_CNN1l_accuracy-epochs.png  used on input line 205.
 
 (pdftex.def)             Requested size: 253.66855pt x 190.25348pt.
 <ex3_CNN2l_accuracy-epochs.png, id=132, 462.528pt x 346.896pt>
 File: ex3_CNN2l_accuracy-epochs.png Graphic file (type png)
 <use ex3_CNN2l_accuracy-epochs.png>
-Package pdftex.def Info: ex3_CNN2l_accuracy-epochs.png  used on input line 200.
+Package pdftex.def Info: ex3_CNN2l_accuracy-epochs.png  used on input line 210.
 
 (pdftex.def)             Requested size: 253.66855pt x 190.25348pt.
 
-Overfull \hbox (96.5678pt too wide) in paragraph at lines 194--204
+Overfull \hbox (96.5678pt too wide) in paragraph at lines 204--214
 [][] [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <ex3_CNN2l_accuracy-neurons.png, id=137, 462.528pt x 346.896pt>
 File: ex3_CNN2l_accuracy-neurons.png Graphic file (type png)
 <use ex3_CNN2l_accuracy-neurons.png>
-Package pdftex.def Info: ex3_CNN2l_accuracy-neurons.png  used on input line 212
+Package pdftex.def Info: ex3_CNN2l_accuracy-neurons.png  used on input line 222
 .
 (pdftex.def)             Requested size: 422.77664pt x 317.09972pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] [6 <./pca_poly_2comps.png> <./pca_poly_3comps.png> <./pca_sigmoid_2comps.pn
-g> <./pca_sigmoid_3comps.png>] [7 <./unsupervised_clustering.png>] [8 <./eigenv
-alues_sigmoid.png> <./ex3_FCNN1l_accuracy-epochs.png> <./ex3_FCNN2l_accuracy-ep
-ochs.png>] [9 <./ex3_FCNN2l_accuracy-neurons.png> <./ex3_CNN1l_accuracy-epochs.
-png> <./ex3_CNN2l_accuracy-epochs.png>] [10 <./ex3_CNN2l_accuracy-neurons.png>]
-(./Report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+[5] [6] [7 <./pca_poly_2comps.png> <./pca_poly_3comps.png> <./pca_sigmoid_2comp
+s.png> <./pca_sigmoid_3comps.png>] [8 <./unsupervised_clustering.png>] [9 <./ei
+genvalues_sigmoid.png> <./ex3_FCNN1l_accuracy-epochs.png> <./ex3_FCNN2l_accurac
+y-epochs.png>] [10 <./ex3_FCNN2l_accuracy-neurons.png> <./ex3_CNN1l_accuracy-ep
+ochs.png> <./ex3_CNN2l_accuracy-epochs.png>] [11 <./ex3_CNN2l_accuracy-neurons.
+png>] (./Report.aux)
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 68041CAF1792123ECC758B9A8763B19C;1154.
  ) 
 Here is how much of TeX's memory you used:
- 11767 strings out of 476025
- 189556 string characters out of 5790018
- 1862388 words of memory out of 5000000
+ 11768 strings out of 476025
+ 189563 string characters out of 5790018
+ 1865388 words of memory out of 5000000
  32036 multiletter control sequences out of 15000+600000
  522034 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -643,10 +648,10 @@ r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Report.pdf (10 pages, 1796580 bytes).
+Output written on Report.pdf (11 pages, 1798425 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

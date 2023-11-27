@@ -160,7 +160,7 @@ We performed this kind of supervised classification using the four kernels that 
 %% Come mai il sigmoid kernel è quello con l'accuratezza minore, anche se abbiamo scelto proprio il sigmoid kernel nel primo esercizio?
 
 \subsection{Fully Connected Neural Network}
-We started by considering a simple neural network, with just 1 fully connected layer and a Softmax activation function; we trained it for different numbers of epochs between 0 and 20, using stochastic gradiend descent with learning rate 0.01 as the optimizer, anc aclculated the test accuracy using the cross entropy loss. As expected, the test accuracy increases with the number of epochs, as illustrated in Figure \ref{subfig:FCNN1l_accuracy-epochs}.\newline
+We started by considering a simple neural network, with just 1 fully connected layer and a Softmax activation function; we trained it for different numbers of epochs between 0 and 20, using stochastic gradiend descent with learning rate 0.01 as the optimizer, and calculated the test accuracy using the cross entropy loss. As expected, the test accuracy increases with the number of epochs, as illustrated in Figure \ref{subfig:FCNN1l_accuracy-epochs}.\newline
 We, then, tried a sligtly more complex neural network, with two fully connected layers and, again, the softmax activation function; in this case, we also need to choose the number of neurons of the first %penso sia il primo
 layer, along with the number of neurons. We started by choosing a number of neurons of 850 and study how the accuracy grows with the number of epochs; as in Figure \ref{subfig:FCNN2l_accuracy-epochs}, we can see how we obtain better results than in the previous model.\newline
 \begin{figure}[h]
@@ -185,12 +185,22 @@ Fixing the number of epochs to 8 and changing the number of neurons between 50 a
 	\caption{Test accuracy obtained by using a 2-layer fully connected neural network with different numbers of neurons per hidden layer, trained for 8 epochs}
 	\label{fig:ex3_FCNN_neurons}
 \end{figure}
-In conclusion, we can say that using two fully connected layers seems better than using just one; concerning the number of epochs and neurons, it seems better to prioritize the first one.
+In conclusion, we can say that using two fully connected layers seems better than using just one; concerning the number of epochs and neurons, it seems better to prioritize the first one.\newline
+Although doing a proper grid search on all the parameters is impossible with our devices, we think that a good trade-off between time and accuracy can be achieved by using a 2-layer neural network with the following parameters:
+\begin{itemize}
+	\item 4000 neurons in each hidden layer
+	\item Training for 9 epochs
+	\item Stochastic gradient descent optimizer with 0.01 leanring rate
+	\item Cross Entropy loss
+	\item 2$\times$2 max pooling
+\end{itemize}
+With those parameters, the training of the model requires more or less 15 seconds and we reach an accuracy of 87\% on the test set.
+
 
 \subsection{Convolutional Neural Network}
 To test the performance of convolutional neural networks, we followed a similar approach: we started by considering a simple CNN composed by one two-dimensional convolutional layer, with 2 $\times$ 2 max pooling, and one fully connected layer; the obtained test accuracy, varying for the number of epochs for which the model was trained, is reported in Figure \ref{subfig:CNN1l_accuracy-epochs}.\newline
 Then, we tried a more complex CNN, with two convolutional layers, with 2 $\times$ 2 max pooling, and one fully connected layer; the accuracies obtained by varying the number of epochs and neurons are reported, respectively in Figures \ref{subfig:CNN2l_accuracy-epochs} and \ref{fig:ex3_CNN_neurons}
-\begin{figure}[h]
+\begin{figure}[h!]
 		\begin{subfigure}{0.6\textwidth}
 		\includegraphics[width = 0.9\textwidth]{ex3_CNN1l_accuracy-epochs.png}
 		\caption{}
@@ -207,15 +217,31 @@ Then, we tried a more complex CNN, with two convolutional layers, with 2 $\times
 
 As we can see, the model with 2 convolutional layers returns better results with less training epochs.
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width = 0.9\textwidth]{ex3_CNN2l_accuracy-neurons.png}
 	\caption{Test accuracy obtained by using a 2-layer fully connected neural network with different numbers of neurons per hidden layer, trained for 2 epochs.}
 	\label{fig:ex3_CNN_neurons}
 \end{figure}
 
+A good model could be the one formed by 
+\begin{itemize}
+	\item 2 convolutional layers with kernel size equal to 3, ReLU activation function and 2 $\times$ 2 max pooling
+	\item 1 fully connected layer
+	\item 50 neurons for each convolutional layer
+	\item Training for 5 epochs
+	\item Optimizer and loss as for the fully connected neural network
+\end{itemize}
 
-\section{Results}
+With these parameters, the model requires more or less 46 seconds to be trained and we have a 91\% test accuracy.\newline
+
+We also tried to implement a Fully Convolutional Neural network, by simply removing the fully connected layer from the 1-layer convolutional neural network: we found out that, using 2 epochs, the accuracy is just 5\% , despite the model requiring 81 seconds to be trained; therefore, we decided to not implement this model any further.
+
+
+\section{Exercise 4}
+% Your content goes here
+
+\section{Exercise 5}
 % Your content goes here
 
 \section{Conclusion}

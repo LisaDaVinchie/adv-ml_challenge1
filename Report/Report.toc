@@ -5,5 +5,5 @@
 \contentsline {subsection}{\numberline {4.1}Support Vector Machine}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Fully Connected Neural Network}{4}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Convolutional Neural Network}{5}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Results}{5}{section.5}%
-\contentsline {section}{\numberline {6}Conclusion}{5}{section.6}%
+\contentsline {section}{\numberline {5}Results}{6}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{6}{section.6}%
